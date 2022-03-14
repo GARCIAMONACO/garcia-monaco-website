@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <Head>
-        <title>Nexjs + Chakra Boilerplate</title>
+        <title>Garcia Monaco</title>
 
         <link rel="shortcut icon" href="/img/icon-512.png" />
 
@@ -18,10 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <link rel="manifest" href="/manifest.json" />
 
-        <meta
-          name="description"
-          content="Boilerplate configurado com NextJS + Typescript + Eslint + ChakraUI"
-        />
+        <meta name="description" content="Garcia Monaco" />
       </Head>
 
       <Component {...pageProps} />
